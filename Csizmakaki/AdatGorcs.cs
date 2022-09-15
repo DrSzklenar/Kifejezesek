@@ -35,13 +35,10 @@ namespace Csizmakaki
         public AdatGorcs(string a)
         {
             string[] temp = a.Split();
-            elso = Convert.ToInt32(temp[0]);
-            masodik = temp[1];
-            harmadik = Convert.ToInt32(temp[2]);
+            Elso = Convert.ToInt32(temp[0]);
+            Masodik = temp[1];
+            Harmadik = Convert.ToInt32(temp[2]);
 
-            Elso = elso;
-            Masodik = masodik;
-            Harmadik = harmadik;
 
         }
 
